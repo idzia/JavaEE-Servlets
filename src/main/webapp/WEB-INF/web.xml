@@ -12,7 +12,7 @@
 
   <servlet-mapping>
     <servlet-name>MyServlet</servlet-name>
-    <url-pattern>/test</url-pattern>
+    <url-pattern>/servlet</url-pattern>
   </servlet-mapping>
 
   <servlet>
@@ -25,6 +25,15 @@
     <url-pattern>/ania</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>com.codecool.java.TestServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/testing</url-pattern>
+  </servlet-mapping>
 
 
 </web-app>
